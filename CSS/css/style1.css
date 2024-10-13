@@ -1,0 +1,61 @@
+*{
+    margin: 20px;
+    padding: 2.5px;
+}
+
+h1{
+    color: pink;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: consolas;
+    text-align: center;
+    }
+
+p{
+    font-family: verdana;
+    color: red;
+    font-size: 12px;
+    line-height: 1.2em;
+}
+
+.text1{
+    color: white;
+    font-family: fantasy;
+    font-size: 14px;
+}
+
+.bgtext1{
+    background: blue;
+    padding: 30px;
+    margin: 10px;
+}
+
+.contoh1{
+    color: rgba(175, 175, 45, 0.671);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2em;
+}
+
+#contoh2{
+    color: blueviolet;
+    font-family: Verdana;
+    line-height: 1.2em;
+}
+
+input[type=text]{
+    background: pink;
+    color: black;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+a:hover{
+    color: white;
+    background-color: red;
+    transition: 0.3s ease-in;
+}
+
+p::first-line{
+    color: red;
+    background-color: yellow;
+}
