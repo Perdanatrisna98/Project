@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erlangga - Form</title>
+</head>
+<body bgcolor="skyblue" style="font-family: consolas;">
+    <h1 style="color: pink;">Form Input</h1>
+    <table>
+        <tr>
+            <td width="200px"><label for="nama">Nama Lengkap</label></td>
+            <td>:</td>
+            <td><input id="nama" placeholder="Masukan Nama Anda" type="text"></td>
+        </tr>
+        
+        <tr>
+            <td width="200px"><label for="pw">Password</label></td>
+            <td>:</td>
+            <td><input id="pw" placeholder="Masukan Password Anda" type="password"></td>
+        </tr>
+
+        <tr>
+            <td width="200px"><label for="email">E-mail</label></td>
+            <td>:</td>
+            <td><input id="email" placeholder="Masukan email Anda" type="email"></td>
+        </tr>
+
+        <tr>
+            <td width="200px"><label for="url">Link</label></td>
+            <td>:</td>
+            <td><input id="url" placeholder="Masukan Link Anda" type="url"></td>
+        </tr>
+
+        <tr>
+            <td width="200px"><label for="waktu">Jam</label></td>
+            <td>:</td>
+            <td><input id="waktu" placeholder="Masukan Nama Anda" type="time"></td>
+        </tr>
+
+        <tr>
+            <td width="200px"><label for="tanggal">Tanggal Lahir</label></td>
+            <td>:</td>
+            <td><input id="tanggal" placeholder="Masukan Nama Anda" type="date"></td>
+        </tr>
+
+        <tr>
+            <td width="200px"><label for="kelamin">Jenis Kelamin</label></td>
+            <td>:</td>
+            <td>
+                <input type="radio" id="kelamin" value="l">Laki-Laki 
+                <input type="radio" id="kelamin" value="p">Perempuan 
+            </td>
+        </tr>
+
+        <tr>
+            <td width="200px"><label for="jurusan">Jurusan</label></td>
+            <td>:</td>
+            <td>
+                <select name="jurusan" id="jurusan">
+                    <option id="jurusan" value="">Rekayasa Perangkat Lunak</option>
+                    <option id="jurusan" value="">Teknik Komputer Jaringan</option>
+                    <option id="jurusan" value="">Farmasi Klinis dan Komunitas</option>
+                    <option id="jurusan" value="">Akuntansi & Keuangan Lembaga</option>
+                    <option id="jurusan" value="">Otomatisasi & Tata Kelola Perkantoran</option>
+                    <option id="jurusan" value="">Perhotelan</option>
+                    <option id="jurusan" value="">Tata Boga</option>
+                    <option id="jurusan" value="">teknik Sepeda Motor</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td width="200px"><label for="mobil">Mobil Idaman</label></td>
+            <td>:</td>
+            <td> 
+                <input id="mobil" placeholder="Masukan Nama Anda" type="checkbox">Porsche 911 GT3
+                <input id="mobil" placeholder="Masukan Nama Anda" type="checkbox">Lamborghini Huracan
+                <input id="mobil" placeholder="Masukan Nama Anda" type="checkbox">Lexus LFA V10
+                <input id="mobil" placeholder="Masukan Nama Anda" type="checkbox">Ferarri SF90 Stradale
+            </td>
+        </tr>
+
+        <tr>
+            <td width="200px"><label for="deskripsi">Deskripsi</label></td>
+            <td>:</td>
+            <td> <textarea name="deskripsi" id="deskripsi"></textarea> </td>
+        </tr>
+
+        <tr>
+            <td width="200px"><label for="telp">No Telepon</label></td>
+            <td>:</td>
+            <td><input id="telp" type="number"></td>
+        </tr>
+
+        <tr>
+            <td width="200px"><label for="file">Upload File</label></td>
+            <td>:</td>
+            <td><input id="file" type="file"></td>
+        </tr>
+
+        <tr>
+            <td width="200px"><label for="warna">Pilih Warna Favorite</label></td>
+            <td>:</td>
+            <td><input id="warna" type="color"></td>
+        </tr>
+
+        <tr>
+            <td width="200px"><label for="range">Range</label></td>
+            <td>:</td>
+            <td><input id="range" type="range"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <form action="" method="POST">
+                <td><button>Kirim</button></td>
+            </form>
+        </tr>
+
+    </table>
+</body>
+</html>
